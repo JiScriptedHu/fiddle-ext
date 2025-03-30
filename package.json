@@ -18,6 +18,14 @@
         "title": "Fiddle: Hello World"
       },
       {
+        "command": "fiddle-ext.installElectron",
+        "title": "Fiddle: Install Electron Version"
+      },
+      {
+        "command": "fiddle-ext.removeElectron",
+        "title": "Fiddle: Remove Electron Version"
+      },
+      {
         "command": "fiddle-ext.newFiddle",
         "title": "Fiddle: New Fiddle"
       },
