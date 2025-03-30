@@ -1,17 +1,51 @@
 {
 	"compilerOptions": {
-		"module": "Node16",
-		"target": "ES2022",
-		"outDir": "out",
-		"lib": [
-			"ES2022"
-		],
-		"sourceMap": true,
-		"rootDir": "src",
-		"strict": true,   /* enable all strict type-checking options */
-		/* Additional Checks */
-		// "noImplicitReturns": true, /* Report error when not all code paths in function return a value. */
-		// "noFallthroughCasesInSwitch": true, /* Report errors for fallthrough cases in switch statement. */
-		// "noUnusedParameters": true,  /* Report errors on unused parameters. */
-	}
-}
+	  // Specifies module code generation method - Node16 is newer and uses ECMAScript modules for Node.js v16+
+	  "module": "Node16",
+	  
+	  // Specifies ECMAScript target version - ES2022 provides modern JavaScript features
+	  "target": "ES2022",
+	  
+	  // Directory to output compiled JavaScript files - matches VS Code extension standard
+	  "outDir": "out",
+	  
+	  // Standard libraries to include - ES2022 provides all modern JavaScript API definitions
+	  "lib": ["ES2022"],
+	  
+	  // Generates source maps to aid debugging - maps TypeScript code to JavaScript
+	  "sourceMap": true,
+	  
+	  // Root directory of source files - helps TypeScript understand project structure
+	  "rootDir": "src",
+	  
+	  // Enables all strict type checking options - helps catch errors early
+	  "strict": true,
+	  
+	  // Generates corresponding .d.ts files - useful if your extension exposes an API
+	  "declaration": true,
+	  
+	  // Improves compatibility with modules imported from non-TypeScript sources
+	  "esModuleInterop": true,
+	  
+	  // Allows importing JSON files as modules - useful for configuration and data files
+	  "resolveJsonModule": true,
+	  
+	  // Determines how modules are resolved - modern node approach
+	  "moduleResolution": "node",
+  
+	  // Report errors on unused locals - helps keep code clean
+	  "noUnusedLocals": true,
+	  
+	  // Report errors on unused parameters - helps identify potential issues
+	  "noUnusedParameters": false,
+	  
+	  // Disallow inconsistently-cased references to the same file - prevents cross-platform issues
+	  "forceConsistentCasingInFileNames": true
+	},
+	
+	// Explicitly define which files should be included in compilation
+	"include": ["src/**/*.ts"],
+	
+	// Explicitly exclude files and directories from compilation
+	"exclude": ["node_modules", ".vscode-test"]
+  }
