@@ -31,7 +31,7 @@
 	  "resolveJsonModule": true,
 	  
 	  // Determines how modules are resolved - modern node approach
-	  "moduleResolution": "node",
+	  "moduleResolution": "Node16",
   
 	  // Report errors on unused locals - helps keep code clean
 	  "noUnusedLocals": true,
