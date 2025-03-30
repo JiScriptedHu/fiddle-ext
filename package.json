@@ -15,7 +15,87 @@
     "commands": [
       {
         "command": "fiddle-ext.helloWorld",
-        "title": "Hello World"
+        "title": "Fiddle: Hello World"
+      },
+      {
+        "command": "fiddle-ext.newFiddle",
+        "title": "Fiddle: New Fiddle"
+      },
+      {
+        "command": "fiddle-ext.newTest",
+        "title": "Fiddle: New Test"
+      },
+      {
+        "command": "fiddle-ext.newWindow",
+        "title": "Fiddle: New Window"
+      },
+      {
+        "command": "fiddle-ext.open",
+        "title": "Fiddle: Open"
+      },
+      {
+        "command": "fiddle-ext.openRecent",
+        "title": "Fiddle: Open Recent"
+      },
+      {
+        "command": "fiddle-ext.save",
+        "title": "Fiddle: Save"
+      },
+      {
+        "command": "fiddle-ext.saveAs",
+        "title": "Fiddle: Save as"
+      },
+      {
+        "command": "fiddle-ext.exportGist",
+        "title": "Fiddle: Publish to Gist"
+      },
+      {
+        "command": "fiddle-ext.importGist",
+        "title": "Fiddle: Load Gist"
+      },
+      {
+        "command": "fiddle-ext.saveAsForgeProject",
+        "title": "Fiddle: Save as Forge Project"
+      },
+      {
+        "command": "fiddle-ext.preferences",
+        "title": "Fiddle: Preferences"
+      },
+      {
+        "command": "fiddle-ext.exit",
+        "title": "Fiddle: Exit"
+      },
+      {
+        "command": "fiddle-ext.bisect",
+        "title": "Fiddle: Bisect"
+      },
+      {
+        "command": "fiddle-ext.runFiddle",
+        "title": "Fiddle: Run Fiddle"
+      },
+      {
+        "command": "fiddle-ext.packFiddle",
+        "title": "Fiddle: Package Fiddle"
+      },
+      {
+        "command": "fiddle-ext.installerFiddle",
+        "title": "Fiddle: Make Installer for Fiddle"
+      },
+      {
+        "command": "fiddle-ext.electronAPI",
+        "title": "Fiddle: Electron API"
+      },
+      {
+        "command": "fiddle-ext.toggleDeveloper",
+        "title": "Fiddle: Developer Tools"
+      },
+      {
+        "command": "fiddle-ext.repository",
+        "title": "Fiddle: Repository"
+      },
+      {
+        "command": "fiddle-ext.about",
+        "title": "Fiddle: About Fiddle Extension"
       }
     ]
   },
